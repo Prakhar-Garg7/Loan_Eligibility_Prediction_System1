@@ -28,7 +28,7 @@ def predict():
                     features = features.reshape(1, -1)
                     prediction = model.predict( features )
                     
-                    return render_template('index.html', prediction_text = 'loan approved or not {}' .format(prediction) )
+                    return render_template('answer.html', prediction_text = 'loan approved or not {}' .format(prediction) )
 
 if __name__ == "__main__":
                     app.run(debug=True)

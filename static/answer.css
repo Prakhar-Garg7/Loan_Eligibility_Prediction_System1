@@ -1,0 +1,28 @@
+*{
+
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+}
+body{
+
+                    background-color: #edf5f4;
+                    width: 100vw;
+                    min-height: 100vh;
+                    padding: 0 5%;
+}
+.cont{
+                    border: 2px solid #427d76;
+                    width: 60vw;
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    height: 20vh;
+                    margin-top: 40vh;
+                    background-color: #fff;
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 25px;
+                    font-weight: bolder;
+}
